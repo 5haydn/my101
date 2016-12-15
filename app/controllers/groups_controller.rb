@@ -35,7 +35,7 @@ class GroupsController < ApplicationController
          @group.destroy
          flash[:alert] = "Group deleted"
          redirect_to groups_path
-       end     
+       end
 
    private
 
